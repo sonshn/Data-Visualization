@@ -1,3 +1,4 @@
+### R ###
 # History files
 .Rhistory
 .Rapp.history
@@ -7,6 +8,7 @@
 
 # User-specific files
 .Ruserdata
+.BankChurners.csv/
 
 # Example code in package build process
 *-Ex.R
@@ -37,3 +39,13 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+### R.Bookdown Stack ###
+# R package: bookdown caching files
+/*_files/
